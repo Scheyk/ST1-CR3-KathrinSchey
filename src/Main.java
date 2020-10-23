@@ -4,6 +4,8 @@ public class Main {
 
     public static void main(String[]args){
 
+
+
         // calculate automatic the rectangular area.
         TheMethods rectangular = new TheMethods();
         rectangular.rectangular();
@@ -73,6 +75,11 @@ public class Main {
         for(int i = 0; i < args.length; i++){
             System.out.print(args[i] + " ");
         }
+
+
+        TheMethods some = new TheMethods();
+        some.Main(2,5);
+
 
     }
 }

@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class TheMethods {
 
-    /* 2. Create a solution for the following problem: given a width and a height of
+    /* Create a solution for the following problem: given a width and a height of
     a rectangular (image below, left side), calculate the rectangular area. */
     static void rectangular(){
         Scanner in = new Scanner(System.in);
@@ -28,6 +28,23 @@ public class TheMethods {
     // calculate the squareArea
     static int squareArea(int a){
         return a*4;
+    }
+
+    static int Main(String[]args){
+
+        Scanner in = new Scanner(System.in);
+
+        for(int i = 0; i < args.length; i++){
+            System.out.println("enter a number");
+            args[i] += in.nextInt();
+        }
+
+        int width = Integer.parseInt(args[0]);
+        int height = Integer.parseInt(args[1]);
+
+        int result = width * height;
+        return result;
+
     }
 
 
