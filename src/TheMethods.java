@@ -1,9 +1,12 @@
 import java.util.Scanner;
 
+/**
+ * this class have only methods for the Main class
+ */
+
 public class TheMethods {
 
-    /* Create a solution for the following problem: given a width and a height of
-    a rectangular (image below, left side), calculate the rectangular area. */
+    // calculate rechteck with scanner
     static void rectangular(){
         Scanner in = new Scanner(System.in);
 
@@ -17,10 +20,7 @@ public class TheMethods {
         System.out.println(" ");
     }
 
-    /*
-    Create this solution with the usage of a new Java method calculateRectArea, that
-    returns a computed value
-     */
+    // calculate rechteck
     static int calculateRectArea(int a, int b){
         return a*b;
     }
@@ -29,25 +29,5 @@ public class TheMethods {
     static int squareArea(int a){
         return a*4;
     }
-
-    /*
-    static int Main(String[]args){
-
-        Scanner in = new Scanner(System.in);
-
-        for(int i = 0; i < args.length; i++){
-            System.out.println("enter a number");
-            args[i] += in.nextInt();
-        }
-
-        int width = Integer.parseInt(args[0]);
-        int height = Integer.parseInt(args[1]);
-
-        int result = width * height;
-        return result;
-
-    }
-     */
-
 
 }
