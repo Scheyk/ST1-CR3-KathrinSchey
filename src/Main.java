@@ -66,8 +66,8 @@ public class Main {
          */
         int[] array = {one.calculateRectArea(8,89), two.calculateRectArea(22,77), three.calculateRectArea(64,8)};
 
-        for(int elements : array){
-            System.out.println("result: " + elements);
+        for(int i = 0; i < array.length; i++){
+            System.out.println("result " + i + " is: " + array[i]);
             System.out.println(" ");
         }
 
