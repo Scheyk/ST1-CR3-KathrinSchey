@@ -1,4 +1,5 @@
 import java.lang.reflect.Array;
+import java.util.Scanner;
 
 public class Main {
 
@@ -73,13 +74,14 @@ public class Main {
         arguments passed to the main() method and displays the solution in the console.
          */
         for(int i = 0; i < args.length; i++){
-            System.out.print(args[i] + " ");
+            System.out.println("Argument " + i + " from Main Class: " + args[i]);
+            System.out.println(" ");
         }
 
-
-        TheMethods some = new TheMethods();
-        some.Main(2,5);
-
+        int width = Integer.parseInt(args[0]);
+        int height = Integer.parseInt(args[1]);
+        int result = width*height;
+        System.out.println("the the solution from the main is: " + result);
 
     }
 }

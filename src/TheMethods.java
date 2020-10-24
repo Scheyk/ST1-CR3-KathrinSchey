@@ -30,6 +30,7 @@ public class TheMethods {
         return a*4;
     }
 
+    /*
     static int Main(String[]args){
 
         Scanner in = new Scanner(System.in);
@@ -46,6 +47,7 @@ public class TheMethods {
         return result;
 
     }
+     */
 
 
 }
